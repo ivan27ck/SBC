@@ -84,4 +84,9 @@
    =>
    (printout t "Oferta: Compra de accesorio Apple con 5% de descuento." crlf))
 
+(defrule oferta-hp-banamex
+    ?orden <- (orden (producto computadora) (marca hp) (modelo SpectreX360) (metodo-pago banamex) (banco banamex))
+    =>
+    (printout t "Oferta: Compra de SpectreX360 con banamex,  5% de descueto" crlf)
+)
 
