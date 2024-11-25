@@ -1,0 +1,1 @@
+(agregar-enfermedad "Gastritis" "Acidez, Ardor estomacal")

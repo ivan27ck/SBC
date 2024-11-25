@@ -1,0 +1,3 @@
+(assert (orden (producto smartphone) (marca apple) (modelo iphone16) (cantidad 15) (metodo-pago tarjeta) (banco banamex)))
+
+(run)
